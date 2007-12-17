@@ -18,7 +18,6 @@ Requires(postun):	desktop-file-utils
 
 BuildArch:	noarch
 BuildRequires:	perl-MDK-Common-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Drakbt reports status information for a given torrent file or URL. 
