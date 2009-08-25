@@ -1,6 +1,6 @@
 %define name	drakbt
 %define version	0.17.4
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary:	The Mandriva Linux Bittorrent link and status checker
 Name:		%{name}
@@ -12,7 +12,7 @@ Source0:	%{name}-%{version}.tar.bz2
 License:	GPLv2+
 URL:		http://qa.mandriva.com
 Group:		Networking/File transfer
-Requires:	drakxtools >= 10-57mdk, perl-libwww-perl >= 5.800-1mdk, perl-Digest-SHA1 >= 2.10-1mdk, bittorrent-gui
+Requires:	drakxtools >= 10-57mdk, perl-libwww-perl >= 5.800-1mdk, perl-Digest-SHA1 >= 2.10-1mdk, transmission-gui
 Requires(post):	desktop-file-utils
 Requires(postun):	desktop-file-utils
 
