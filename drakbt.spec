@@ -1,6 +1,6 @@
 %define name	drakbt
 %define version	0.17.5
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	The Mandriva Linux Bittorrent link and status checker
 Name:		%{name}
