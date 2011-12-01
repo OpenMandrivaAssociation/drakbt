@@ -45,8 +45,8 @@ rm -rf %{buildroot}
 make PREFIX=%{buildroot} install 
 
 #menu-xdg
-mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications
-cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
+mkdir -p %{buildroot}%{_datadir}/applications
+cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
 [Desktop Entry]
 Name=Bittorrent Checker
 Comment=Mandriva Linux Bittorrent checker
