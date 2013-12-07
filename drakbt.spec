@@ -1,7 +1,7 @@
 Summary:	The Mandriva Linux Bittorrent link and status checker
 Name:		drakbt
 Version:	0.17.5
-Release:	5
+Release:	6
 License:	GPLv2+
 Group:		Networking/File transfer
 Url:		http://qa.mandriva.com
