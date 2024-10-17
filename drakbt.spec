@@ -4,7 +4,7 @@ Version:	0.17.5
 Release:	13
 License:	GPLv2+
 Group:		Networking/File transfer
-Url:		http://qa.mandriva.com
+Url:		https://qa.mandriva.com
 #cvs source
 # http://www.mandrivalinux.com/en/cvs.php3
 Source0:	%{name}-%{version}.tar.bz2
